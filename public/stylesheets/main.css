@@ -1,0 +1,44 @@
+body{
+  background-color: #616161;
+}
+
+.centration_linear_layout{
+  text-align: center;
+  background-color: #616161;
+}
+
+.accent_layout{
+  background-color: #757575;
+  color: #ffffff;
+}
+
+.extrainfo_layout{
+  background-color: #616161;
+  color: #ffffff;
+
+  transition: all .8s ease-in-out;
+}
+
+.extrainfo_layout:hover{
+  transform: scale(1.5);
+}
+
+p{
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.accent_text{
+  font-family: 'Arvo', Georgia, Times, serif;
+  font-size: 2.3em;
+}
+
+.accompany_text{
+  font-family: 'Arvo', Georgia, Times, serif;
+  font-size: 1.6em;
+}
